@@ -5,5 +5,8 @@
 </head>
 <body>
 <h1> Hello World! </h2>
+  <footer>
+    <p> All rights Reserved. </p>
+  </footer>
 </body>
 </html>
