@@ -2,9 +2,8 @@
 <html>
 <head>
 <title> Test </title>
-</head>
-<body>
-  <h1> Hello World! </h1>
-  <center> <h2> Arvynn Charles Yap </h2> </center>
-</body>
-</html>
+  <body>
+  <h1> Hello!</h1>
+  </body>
+  </head>
+  </html>
