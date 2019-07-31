@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title> Test </title>
 <article>
 <header>
-<h1><p> This is a Header tag. </p></h1>
+<h1>This is a Header tag.</h1>
 </header>
 <p>The header element represents a container for introductory content or a set of navigational links. A <header> element typically contains: one or more heading elements (h1 - h6) logo or icon.</p>
 </article>
