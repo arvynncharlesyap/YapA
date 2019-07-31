@@ -4,9 +4,7 @@
 <title> Test </title>
 </head>
 <body>
-<h1> Hello World! </h2>
-  <footer>
-    <p> All rights Reserved. </p>
-  </footer>
+  <h1> Hello World! </h1>
+  <center> <h2> Arvynn Charles Yap </h2> </center>
 </body>
 </html>
