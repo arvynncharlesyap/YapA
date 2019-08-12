@@ -9,5 +9,5 @@
 <h1> YapA Photo Gallery </h1>
 <img src="firstphoto.jpg" width="500" height="500"> <br>
 <br>
-<a href="homepage.php">Go back to Home</a>
+<a href="index.php">Go back to Home</a>
 <a href="secondphoto.php">Next Photo</a>
