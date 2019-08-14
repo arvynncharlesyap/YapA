@@ -17,3 +17,5 @@
 <a href="resetpassword.php">Reset Password</a>
 &nbsp;&nbsp;
 <a href="signup.php">Sign Up</a>
+</body>
+</html>
