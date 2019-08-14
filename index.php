@@ -4,6 +4,7 @@
 <title>Login</title>
 </head>
 <body align="center">
+<body bgcolor="lightblue">
 <h1>Login</h1>
 </br>
 <form submit="/submit_page.php">
