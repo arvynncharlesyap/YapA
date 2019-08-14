@@ -3,7 +3,6 @@
 <head>
 <title> First Page </title>
 </head>
-<body>
 <body bgcolor="lightblue">
 <center>
 <h1> YapA Photo Gallery </h1>
@@ -11,3 +10,5 @@
 <br>
 <a href="index2.php">Go back to Home</a>
 <a href="secondphoto.php">Next Photo</a>
+  </body>
+  </html>
