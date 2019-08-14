@@ -12,6 +12,7 @@
 <a href="firstphoto.php">First Picture</a><br>
 <a href="secondphoto.php">Second Picture</a><br>
 <a href="thirdphoto.php">Third Picture</a><br>
-
+  </br>
+  <a href="index.php">Log out</a>
 </body>
 </html>
