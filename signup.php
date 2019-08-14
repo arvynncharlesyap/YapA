@@ -4,6 +4,7 @@
 <title>Sign Up</title>
 </head>
 <body align="left">
+<body bgcolor="lightblue">
 <h2>Sign Up</h3>
 </align>
 <center>
