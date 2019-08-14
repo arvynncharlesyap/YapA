@@ -7,7 +7,7 @@
 <body bgcolor="lightblue">
 <h1>Login</h1>
 </br>
-<form submit="/submit_page.php">
+<form submit="/index2.php">
 <h4>Username:<input type="username" placeholder="Input Username"></h4>
 <h4>Password:<input type="password" placeholder="Input Password"</h4>
 </br>
