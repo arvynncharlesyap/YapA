@@ -3,8 +3,7 @@
 <head>
 <title>Reset Password</title>
 </head>
-<body align="center">
-<body bgcolor="lightblue">
+<body align="center" bgcolor="lightblue">
 </br>
 </br>
 </br>
