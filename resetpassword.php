@@ -4,6 +4,7 @@
 <title>Reset Password</title>
 </head>
 <body align="center">
+<body bgcolor="lightblue">
 </br>
 </br>
 </br>
