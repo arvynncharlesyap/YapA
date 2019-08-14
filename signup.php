@@ -3,8 +3,7 @@
 <head>
 <title>Sign Up</title>
 </head>
-<body align="left">
-<body bgcolor="lightblue">
+<body align="left" bgcolor="lightblue">
 <h2>Sign Up</h3>
 </align>
 <center>
