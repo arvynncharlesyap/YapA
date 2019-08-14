@@ -3,8 +3,7 @@
 <head>
 <title>Login</title>
 </head>
-<body align="center">
-<body bgcolor="lightblue">
+<body align="center" bgcolor="lightblue">
 <h1>Login</h1>
 </br>
 <form action="index2.php">
