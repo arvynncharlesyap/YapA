@@ -11,6 +11,8 @@
 <h4>Confirm Email:<input type="text"></h4>
 <h4>Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"></h4>
 <h4>Confirm Password:<input type="text"></h4>
+  <form action="signup2.php">
 <input type="submit" value="Sign up">
+  </form>
 </body>
 </html>
