@@ -13,6 +13,6 @@
 <h4>Confirm Password:<input type="text"></h4>
   <form action="signup2.php">
 <input type="submit" value="Sign up">
-  </form>
+</form>
 </body>
 </html>
