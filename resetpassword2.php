@@ -7,7 +7,7 @@
 <h1> Success! </h1>
 <h1> Kindly check your e-mail account. </h1>
 <p> Go back to
-<a href="index.php">login page.</a>
+<a href="login.html">login page.</a>
 
 </body>
 </html>
