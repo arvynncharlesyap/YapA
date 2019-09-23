@@ -72,7 +72,7 @@ else if(x < y)
 }
 </script>
 <br>
-<form action="guessnumber.html">
+<form action="index.php">
 <input type="submit" value="Refresh">
 </form>
 </body> 
