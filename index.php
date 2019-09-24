@@ -13,7 +13,7 @@
 	color:orange;
 	text-align: center;
   	padding: 15px;
-  	background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif);
+  	background-image: url(https://media.giphy.com/media/3o7TKN6p9wCZudoWHu/giphy.gif);
 }
 </style> 
 </head> 
