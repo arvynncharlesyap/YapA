@@ -17,7 +17,6 @@
 }
 </style> 
 </head> 
-  
 <body> 
 <h1 style="font-size:330%;"><i>guess the number</i></h1> 
   
@@ -43,9 +42,13 @@
       
    // number guessed by user      
    var x = document.getElementById("guessField").value; 
+if(x == y) 
+{	 
+alert("CONGRATULATIONS!!! you are right in "
+			+ guess + " GUESS ");
+} 
 
-
-  if (x == "") {
+else  if (x == "") {
  alert("Missing guess parameter"); 
 }
   else if(x == y) 
