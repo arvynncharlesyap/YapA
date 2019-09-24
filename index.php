@@ -6,13 +6,13 @@
   
     <style> 
         html {
- 
-    font-family: Algerian; 
+		h1{font-family:Algerian;}
+    font-family: Arial; 
     } 
     body { 
 	color:orange;
 	text-align: center;
-  	padding: 15px;
+  	padding: 55px;
   	background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif);
 }
 </style> 
@@ -20,7 +20,7 @@
 <body> 
 <h1 style="font-size:330%;"><i>guess the number</i></h1> 
   
-<p style="font-size:100%;">TRY TO GUESS THE RANDOM NUMBER WE HAVE SELECTED FROM 1 - 10. GOODLUCK!</p> 
+<p style="font-size:100%;">Try to guess the random generated number that ranges from 1 - 10. GOODLUCK!</p> 
   
 <div class="form"> 
     <label for="guessField"><b>ENTER A GUESS:</b> </label> 
