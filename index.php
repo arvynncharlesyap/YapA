@@ -4,21 +4,21 @@
     <meta charset="utf-8"> 
     <title>Arvynn Charles Yap</title> 
   
-    <style> 
+    <style>
+	h1{font-family:Algerian;}
         html {
-		h1{font-family:Algerian;}
     font-family: Arial; 
     } 
     body { 
 	color:orange;
 	text-align: center;
-  	padding: 55px;
+  	padding: 100px;
   	background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif);
 }
 </style> 
 </head> 
 <body> 
-<h1 style="font-size:330%;"><i>guess the number</i></h1> 
+<h1 style="font-size:430%;"><i>Guess the Number</i></h1> 
   
 <p style="font-size:100%;">Try to guess the random generated number that ranges from 1 - 10. GOODLUCK!</p> 
   
