@@ -5,8 +5,10 @@ body{
 	background-attachment: fixed;
 }
 
-
-
+h1{
+font-family: "Algerian";
+color: white;
+}
 
 loginpage{
 width: 350px;
