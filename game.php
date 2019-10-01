@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,6 +29,8 @@
 Please select a strategy and press Play.
 </pre>
 </div>
+</body>
+</html>
 
 <script>
 function myFunction() {
@@ -45,5 +46,3 @@ function myFunction() {
     }
 }
 </script>
-</body>
-</html>
