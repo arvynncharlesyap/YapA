@@ -43,5 +43,39 @@ if ( $human == -1 ) {
 ?>
 </pre>
 </div>
+    // Demand a GET parameter
+if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
+    die('Name parameter missing');
+}
+// If the user requested logout go back to index.php
+if ( isset($_POST['logout']) ) {
+    header('Location: index.php');
+    return;
+}
+// Set up the values for the game...
+// 0 is Rock, 1 is Paper, and 2 is Scissors
+$names = array('Rock', 'Paper', 'Scissors');
+$human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
+$computer = 0; // Hard code the computer to rock
+// TODO: Make the computer be random
+// $computer = rand(0,2);
+// This function takes as its input the computer and human play
+// and returns "Tie", "You Lose", "You Win" depending on play
+// where "You" is the human being addressed by the computer
+function check($computer, $human) {
+    // For now this is a rock-savant checking function
+    // TODO: Fix this
+    if ( $human == 0 ) {
+        return "Tie";
+    } else if ( $human == 1 ) {
+        return "You Win";
+    } else if ( $human == 2 ) {
+        return "You Lose";
+    }
+    return false;
+}
+// Check to see how the play happenned
+$result = check($computer, $human);
+?>
 </body>
 </html>
