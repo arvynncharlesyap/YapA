@@ -20,7 +20,7 @@
 <option value="3">Test</option>
 </select>
 <input type="submit" value="Play">
-<input type="submit" name="logout" value="Logout">
+<a href="index.php">Logout</a>
 </form>
 
 
