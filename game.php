@@ -1,5 +1,6 @@
-<?php
-
+<!DOCTYPE html>
+<html>
+<head>
 if ( isset($_POST['logout']) ) {
     header('Location: index.php');
     return;
@@ -27,11 +28,8 @@ function check($computer, $human) {
 $result = check($computer, $human);
 
 ?>
-<!DOCTYPE html>
-<html>
-<head>
 <title>Dr. Chuck's Rock, Paper, Scissors Game</title>
-<?php require_once "bootstrap.php"; ?>
+<?php require_once "game.css"; ?>
 </head>
 <body>
 <div class="container">
