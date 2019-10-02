@@ -29,6 +29,7 @@ $result = check($computer, $human);
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="game.css">
 <title>Dr. Chuck's Rock, Paper, Scissors Game</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
