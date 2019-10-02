@@ -30,7 +30,7 @@ $result = check($computer, $human);
 <html>
 <head>
 <title>Dr. Chuck's Rock, Paper, Scissors Game</title>
-<?php require_once "bootstrap.php"; ?>
+<?php require_once "game.css"; ?>
 </head>
 <body>
 <div class="container">
