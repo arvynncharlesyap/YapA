@@ -4,11 +4,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
-<title>Rock Paper Scissors Game!</title>
+<title>RPS Game - Login</title>
 </head>
 <body>
-
-<h1>Rock-Paper-Scissors Game</h1>
+	<h1> Welcome to RPS Game</h1>
+<h3>Rock-Paper-Scissors Game</h3>
 
 <form name="loginform" onSubmit="return validateForm();" action="game.php" method="post">
  <div class="imgcontainer">
