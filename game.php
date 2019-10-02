@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
+<?php
+
+if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
+    die('Name parameter missing');
+}
+
 if ( isset($_POST['logout']) ) {
     header('Location: index.php');
     return;
 }
 
-
 $names = array('Rock', 'Paper', 'Scissors');
 $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
 
-$computer = 0;
+$computer = 0; 
 
 function check($computer, $human) {
-  
+    
     if ( $human == 0 ) {
         return "Tie";
     } else if ( $human == 1 ) {
@@ -24,19 +26,25 @@ function check($computer, $human) {
     return false;
 }
 
-
 $result = check($computer, $human);
 
 ?>
+<!DOCTYPE html>
+<html>
+<head>
 <title>Dr. Chuck's Rock, Paper, Scissors Game</title>
-<?php require_once "game.css"; ?>
+<?php require_once "bootstrap.php"; ?>
 </head>
 <body>
 <div class="container">
 <h1>Rock Paper Scissors</h1>
 <?php
-
-
+if ( isset($_REQUEST['name']) ) {
+    echo "<p>Welcome: ";
+    echo htmlentities($_REQUEST['name']);
+    echo "</p>\n";
+}
+?>
 <form method="post">
 <select name="human">
 <option value="-1">Select</option>
